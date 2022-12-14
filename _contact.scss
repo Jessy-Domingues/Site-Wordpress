@@ -1,0 +1,36 @@
+@import 'variables';
+.imgctc{
+    background-size: 100% 100%;
+    height: 70vh;
+}
+.fluentform{
+    background-color: rgba(2, 195, 154, 0.1);
+    padding: 1em;
+}
+.bg{
+    background-color: rgba(2, 195, 154, 0.05);
+}
+#contact{
+    padding-bottom: 2em;
+}
+#contact{
+    font-family: 'Roboto', serif;
+    width: 60%;
+    margin: auto;
+    h2{
+        margin-top: 0%;
+        padding-top: 2em;
+    }
+    .ff_btn_style{
+        border: 1px solid $sec;
+        background-color: transparent;
+        color: $sec;
+        &:hover{
+            color: white;
+            background-color: $sec;
+        }
+    }
+}
+#footctc{
+    margin-top: 0%;
+}

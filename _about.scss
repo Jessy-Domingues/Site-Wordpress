@@ -1,0 +1,31 @@
+@import 'variables';
+
+#h_about{
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 75vh;
+}
+.ttla{
+    width:70%;
+    margin: 1em 7em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 2em;
+    text-decoration: underline;
+    text-decoration-color: $ter;
+    text-underline-offset: 7px;
+}
+#abloc{
+    width: 80%;
+    margin: auto;
+    #pbloc{
+        box-shadow: 10px 5px 5px rgba(0, 168, 150, 0.3);
+    
+    p{
+        margin: 0%;
+        padding: 1em;
+        font-family: 'roboto', serif;
+    }
+    }
+}

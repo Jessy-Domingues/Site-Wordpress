@@ -1,0 +1,40 @@
+@import 'variables';
+
+.imgdebut{
+    background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 80vh;
+}
+
+    .ttl{
+        width: 80%;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        font-size: 2em;
+        text-decoration: underline;
+        text-decoration-color: $ter;
+        text-underline-offset: 7px;
+    }
+    .corps{
+        width:90%;
+        margin: auto;
+        background:linear-gradient(135deg, rgba(1, 126, 143, 0.05), rgba(2, 194, 152, 0.22));
+        padding: 1em;
+        font-family: 'roboto', serif;
+        box-shadow: 10px 5px 5px rgba(0, 168, 150, 0.3);
+        a{
+            text-decoration: none;
+            color:black;
+            font-family: 'roboto', sans-serif;
+            font-size: 1.5em;
+            font-weight: 400;
+            &:hover{
+                color: $ter;
+                text-decoration-line: underline;
+            }
+        }
+    }

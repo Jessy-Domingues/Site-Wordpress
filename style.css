@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* Theme Name: Thème blog
+Description: Thème personnalisé pour le site du Blog
+Version: 0.1
+Author: Jessy
+*/
+header {
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 3em;
+  margin: 0.4em 0em;
+}
+header nav {
+  width: 60%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li {
+  display: flex;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "roboto", sans-serif;
+  font-size: 1.5em;
+}
+header nav ul li a:hover {
+  color: #00A896;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-underline-offset: 10px;
+}
+
+#h_about {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.ttla {
+  width: 70%;
+  margin: 1em 7em;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 2em;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #02C39A;
+          text-decoration-color: #02C39A;
+  text-underline-offset: 7px;
+}
+
+#abloc {
+  width: 80%;
+  margin: auto;
+}
+#abloc #pbloc {
+  box-shadow: 10px 5px 5px rgba(0, 168, 150, 0.3);
+}
+#abloc #pbloc p {
+  margin: 0%;
+  padding: 1em;
+  font-family: "roboto", serif;
+}
+
+footer {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  background-color: #AA8F66;
+  min-height: 10vh;
+}
+footer #menu-footer {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer #menu-footer li {
+  display: flex;
+}
+footer #menu-footer li a {
+  text-decoration: none;
+  color: black;
+  font-family: "roboto", sans-serif;
+  font-size: 1em;
+}
+footer #menu-footer li a:hover {
+  color: #00A896;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-underline-offset: 10px;
+}
+
+.imgdebut {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.ttl {
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 2em;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #02C39A;
+          text-decoration-color: #02C39A;
+  text-underline-offset: 7px;
+}
+
+.corps {
+  width: 90%;
+  margin: auto;
+  background: linear-gradient(135deg, rgba(1, 126, 143, 0.05), rgba(2, 194, 152, 0.22));
+  padding: 1em;
+  font-family: "roboto", serif;
+  box-shadow: 10px 5px 5px rgba(0, 168, 150, 0.3);
+}
+.corps a {
+  text-decoration: none;
+  color: black;
+  font-family: "roboto", sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.corps a:hover {
+  color: #02C39A;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.imgarti {
+  background-size: cover;
+  background-position: 50% 75%;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.back {
+  background: linear-gradient(white, #00A896);
+}
+.back article {
+  width: 60%;
+  margin: auto;
+}
+.back article h2 {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  width: 90%;
+  margin: auto;
+}
+.back article .span {
+  padding: 2em 0em;
+}
+
+#artfoot {
+  margin-top: 0%;
+}
+
+.imgctc {
+  background-size: 100% 100%;
+  height: 70vh;
+}
+
+.fluentform {
+  background-color: rgba(2, 195, 154, 0.1);
+  padding: 1em;
+}
+
+.bg {
+  background-color: rgba(2, 195, 154, 0.05);
+}
+
+#contact {
+  padding-bottom: 2em;
+}
+
+#contact {
+  font-family: "Roboto", serif;
+  width: 60%;
+  margin: auto;
+}
+#contact h2 {
+  margin-top: 0%;
+  padding-top: 2em;
+}
+#contact .ff_btn_style {
+  border: 1px solid #00A896;
+  background-color: transparent;
+  color: #00A896;
+}
+#contact .ff_btn_style:hover {
+  color: white;
+  background-color: #00A896;
+}
+
+#footctc {
+  margin-top: 0%;
+}
+
+body {
+  margin: 0;
+}
+body .heroimg {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: whitesmoke;
+}
+body .heroimg h2 {
+  font-family: "Playfair display", serif;
+  font-weight: 700;
+  font-size: 3em;
+  padding-left: 0.5em;
+}
+body .biggroup {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+body .biggroup .aboutimg {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+body .biggroup .aboutimg img {
+  width: 30%;
+}
+body .biggroup .txtgroup {
+  width: 60%;
+}/*# sourceMappingURL=style.css.map */

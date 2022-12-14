@@ -1,0 +1,54 @@
+/* Theme Name: Thème blog
+Description: Thème personnalisé pour le site du Blog
+Version: 0.1
+Author: Jessy
+*/
+@import 'variables';
+@import 'header';
+@import 'about';
+@import 'footer';
+@import 'blog';
+@import 'single';
+@import 'contact';
+
+body{
+margin:0;
+
+
+.heroimg{
+    background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+    h2{
+        font-family: 'Playfair display', serif;
+        font-weight: 700;
+        font-size: 3em;
+        padding-left: 0.5em;
+    }
+}
+.biggroup{
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+.aboutimg{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    img{
+        width: 30%;
+    }
+}
+.txtgroup{
+    width: 60%;
+}
+}
+}
+
+
+

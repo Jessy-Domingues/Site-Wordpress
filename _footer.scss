@@ -1,0 +1,28 @@
+footer{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    background-color: $qua;
+    min-height: 10vh;
+
+#menu-footer{
+    width: 40%;
+    margin:auto;
+    display: flex;
+            justify-content: space-between;
+            li{
+                display: flex;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'roboto', sans-serif;
+                    font-size: 1em;
+                    &:hover{
+                        color: $sec;
+                        text-decoration-line: underline;
+                        text-underline-offset: 10px;
+                    }
+                }
+            }
+        }
+}
